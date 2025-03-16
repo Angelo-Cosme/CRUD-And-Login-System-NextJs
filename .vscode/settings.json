@@ -1,3 +1,16 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "css.validate": false,
+    "tailwindCSS.experimental.classRegex": [
+        "className\\s*=\\s*[\"'`]([^\"'`]+)[\"'`]",
+        "tw`([^`]*)",
+        "tw\\.[a-z]+`([^`]*)",
+        "classnames\\(([^)]+)\\)",
+        "clsx\\(([^)]+)\\)",
+        "cva\\(([^)]+)\\)"
+    ]
 }
+
